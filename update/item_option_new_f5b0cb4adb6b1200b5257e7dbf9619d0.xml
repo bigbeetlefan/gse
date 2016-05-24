@@ -57,7 +57,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-05-24 08:29:58</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f5b0cb4adb6b1200b5257e7dbf9619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Additional comments</sys_name>
