@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Task" max_length="40" name="x_39910_gse_task" type="collection">
+        <element choice="1" choice_field="x_gsea_port" choice_table="x_39910_gse_asset" label="Airport" max_length="40" name="airport" type="choice">
+            <choice>
+                <element label="Auckland International" sequence="0" value="AKLI"/>
+                <element label="Auckland Domestic" sequence="1" value="AKLD"/>
+                <element label="Auckland Cargo" sequence="2" value="AKLC"/>
+                <element label="Christchurch International" sequence="3" value="CHCI"/>
+                <element label="Christchurch Cargo" sequence="4" value="CHCC"/>
+                <element label="Wellington International" sequence="5" value="WLGI"/>
+                <element label="Wellington Cargo" sequence="6" value="WLGC"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Work Note" max_length="4000" name="work_note" type="journal"/>
+        <element label="Asset" max_length="32" name="x_grt_asset" reference="x_39910_gse_asset" type="reference"/>
+        <element choice="1" choice_field="x_gsea_asset_type" choice_table="x_39910_gse_asset" label="Asset Type" max_length="40" name="x_grt_asset_type" type="choice">
+            <choice>
+                <element label="Truck" sequence="0" value="truck"/>
+                <element label="Dolly" sequence="1" value="dolly"/>
+                <element label="Golf Cart" sequence="2" value="golfcart"/>
+                <element label="Tractor" sequence="3" value="tractor"/>
+            </choice>
+        </element>
+        <element label="Due Date" max_length="40" name="x_grt_due_date" type="glide_date"/>
+        <element label="Issue Details" max_length="2000" name="x_grt_issue_details" type="string"/>
+        <element label="Location details" max_length="250" name="x_grt_location_details" type="string"/>
+        <element label="Quote" max_length="40" name="x_grt_quote" type="decimal"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Requsted by" max_length="32" name="x_grt_requsted_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="x_grt_requsted_by"/>
+        </index>
+        <index name="index2">
+            <element name="x_grt_asset"/>
+        </index>
+    </element>
+</database>

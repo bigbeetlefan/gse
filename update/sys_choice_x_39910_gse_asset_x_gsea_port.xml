@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_gsea_port" table="x_39910_gse_asset" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auckland International</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:29:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>284cbf5edbef1200b5257e7dbf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:29:00</sys_updated_on>
+            <value>AKLI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auckland Domestic</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:29:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db7cbb5edbef1200b5257e7dbf9619ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:38:37</sys_updated_on>
+            <value>AKLD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auckland Cargo</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:31:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16acff5edbef1200b5257e7dbf961992</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:38:37</sys_updated_on>
+            <value>AKLC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Christchurch International</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>278cbfdadbef1200b5257e7dbf96194d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:38:37</sys_updated_on>
+            <value>CHCI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Christchurch Cargo</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfdc7f5edbef1200b5257e7dbf9619f9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:38:37</sys_updated_on>
+            <value>CHCC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wellington International</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90fcff5edbef1200b5257e7dbf961993</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:38:37</sys_updated_on>
+            <value>WLGI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_gsea_port</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wellington Cargo</label>
+            <language>en</language>
+            <name>x_39910_gse_asset</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>902df39edbef1200b5257e7dbf961904</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:38:37</sys_updated_on>
+            <value>WLGC</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_gsea_port</element>
+            <name>x_39910_gse_asset</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 07:29:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>665cf79adbef1200b5257e7dbf961934</sys_id>
+            <sys_mod_count>16</sys_mod_count>
+            <sys_name>x_gsea_port</sys_name>
+            <sys_package display_value="GSE" source="x_39910_gse">83bc72c6db6b1200b5257e7dbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GSE">83bc72c6db6b1200b5257e7dbf961907</sys_scope>
+            <sys_update_name>sys_choice_x_39910_gse_asset_x_gsea_port</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 07:32:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

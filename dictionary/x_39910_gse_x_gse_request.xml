@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Request" max_length="40" name="x_39910_gse_x_gse_request" type="collection">
+        <element choice="1" choice_field="x_gsea_asset_type" choice_table="x_39910_gse_asset" label="Equipment type" max_length="40" name="equipment_type" type="choice">
+            <choice>
+                <element label="Truck" sequence="0" value="truck"/>
+                <element label="Dolly" sequence="1" value="dolly"/>
+                <element label="Golf Cart" sequence="2" value="golfcart"/>
+                <element label="Tractor" sequence="3" value="tractor"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Request State" max_length="40" name="request_state" type="choice">
+            <choice>
+                <element label="Request" sequence="0" value="1"/>
+                <element label="Working in progress" sequence="1" value="2"/>
+                <element label="Waiting on supplier" sequence="2" value="3"/>
+                <element label="Waiting on approval" sequence="3" value="4"/>
+                <element label="Work Completed" sequence="4" value="5"/>
+                <element label="Cancelled" sequence="5" value="6"/>
+                <element label="Closed" sequence="6" value="10"/>
+            </choice>
+        </element>
+        <element label="Involved with accident?" max_length="40" name="x_gse_accident" type="boolean"/>
+        <element choice="1" choice_field="x_gsea_port" choice_table="x_39910_gse_asset" label="Airport" max_length="40" name="x_gse_airport" type="choice">
+            <choice>
+                <element label="Auckland International" sequence="0" value="AKLI"/>
+                <element label="Auckland Domestic" sequence="1" value="AKLD"/>
+                <element label="Auckland Cargo" sequence="2" value="AKLC"/>
+                <element label="Christchurch International" sequence="3" value="CHCI"/>
+                <element label="Christchurch Cargo" sequence="4" value="CHCC"/>
+                <element label="Wellington International" sequence="5" value="WLGI"/>
+                <element label="Wellington Cargo" sequence="6" value="WLGC"/>
+            </choice>
+        </element>
+        <element choice="1" label="Approval" max_length="40" name="x_gse_approval" type="choice">
+            <choice>
+                <element label="Not Yet Requested" sequence="0" value="not_requested"/>
+                <element label="Requested" sequence="1" value="requested"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+                <element label="Cancelled" sequence="4" value="cancelled"/>
+                <element label="No Longer Required" sequence="5" value="not_required"/>
+            </choice>
+        </element>
+        <element label="Assigned Supplier" max_length="32" name="x_gse_assigned_supplier" reference="sys_user_group" type="reference"/>
+        <element label="Cost" max_length="20" name="x_gse_cost" type="decimal"/>
+        <element label="Detailed location" max_length="250" name="x_gse_detailed_location" type="string"/>
+        <element label="Due date" max_length="40" name="x_gse_due_date" type="glide_date"/>
+        <element label="Equipment" max_length="32" name="x_gse_equipment" reference="x_39910_gse_asset" type="reference"/>
+        <element label="Issue details" max_length="2000" name="x_gse_issue_details" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Opened by" max_length="32" name="x_gse_opened_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" default="4" label="Priority" max_length="40" name="x_gse_priority" type="choice">
+            <choice>
+                <element label="Routine: 2-3 days service" sequence="0" value="4"/>
+                <element label="Same day: within 24 hrs" sequence="1" value="3"/>
+                <element label="Urgent: reqairs required now" sequence="2" value="2"/>
+                <element label="Action now: Aircraft on ground" sequence="3" value="1"/>
+            </choice>
+        </element>
+        <element label="Stage" max_length="80" name="x_gse_stage" type="workflow"/>
+        <index name="index">
+            <element name="x_gse_opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="x_gse_assigned_supplier"/>
+        </index>
+        <index name="index3">
+            <element name="x_gse_equipment"/>
+        </index>
+    </element>
+</database>
