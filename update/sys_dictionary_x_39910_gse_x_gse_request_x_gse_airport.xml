@@ -12,8 +12,8 @@
 
 })(current);]]></calculation>
         <choice>1</choice>
-        <choice_field>u_gse_port</choice_field>
-        <choice_table>u_gse_asset</choice_table>
+        <choice_field>x_gsea_port</choice_field>
+        <choice_table>x_39910_gse_asset</choice_table>
         <column_label>Airport</column_label>
         <comments/>
         <create_roles/>
@@ -53,7 +53,7 @@
         <sys_created_on>2016-05-24 16:45:18</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>93f1f45edbeb1200b5257e7dbf96191c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Airport</sys_name>
         <sys_package display_value="GSE" source="x_39910_gse">83bc72c6db6b1200b5257e7dbf961907</sys_package>
         <sys_policy/>
@@ -61,7 +61,7 @@
         <sys_scope display_value="GSE">83bc72c6db6b1200b5257e7dbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_39910_gse_x_gse_request_x_gse_airport</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-05-24 16:45:47</sys_updated_on>
+        <sys_updated_on>2016-05-25 07:41:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

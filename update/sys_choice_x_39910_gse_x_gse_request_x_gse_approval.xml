@@ -9,15 +9,15 @@
             <label>Not Yet Requested</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
-            <sequence>1</sequence>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-05-24 17:05:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5b96b8dedbeb1200b5257e7dbf961992</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:07:10</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
             <value>not_requested</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -28,15 +28,15 @@
             <label>Requested</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
-            <sequence>2</sequence>
+            <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-05-24 17:06:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>24c670dedbeb1200b5257e7dbf9619d7</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:07:06</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
             <value>requested</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -47,15 +47,15 @@
             <label>Approved</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-05-24 17:07:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2c07f89edbeb1200b5257e7dbf96199a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:07:44</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
             <value>approved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -66,15 +66,15 @@
             <label>Rejected</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-05-24 17:07:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ab2778dedbeb1200b5257e7dbf96191c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:08:05</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
             <value>rejected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,15 +85,15 @@
             <label>Cancelled</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
-            <sequence>5</sequence>
+            <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-05-24 17:08:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2c47b4dedbeb1200b5257e7dbf9619d3</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:08:24</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
             <value>cancelled</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,15 +104,15 @@
             <label>No Longer Required</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
-            <sequence>6</sequence>
+            <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-05-24 17:09:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>555774dedbeb1200b5257e7dbf96195b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:09:16</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
             <value>not_required</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

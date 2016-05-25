@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="Asset" max_length="40" name="x_39910_gse_asset" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Asset Type" max_length="40" name="x_gsea_asset_type" type="choice">
+            <choice>
+                <element label="Dolly" sequence="0" value="dolly"/>
+                <element label="Golf Cart" sequence="1" value="golfcart"/>
+                <element label="Tractor" sequence="2" value="tractor"/>
+                <element label="Truck" sequence="3" value="truck"/>
+            </choice>
+        </element>
+        <element choice="1" label="Port" max_length="40" name="x_gsea_port" type="choice">
+            <choice>
+                <element label="Auckland International" sequence="0" value="AKLI"/>
+                <element label="Auckland Domestic" sequence="1" value="AKLD"/>
+                <element label="Auckland Cargo" sequence="2" value="AKLC"/>
+                <element label="Christchurch International" sequence="3" value="CHCI"/>
+                <element label="Christchurch Cargo" sequence="4" value="CHCC"/>
+                <element label="Wellington International" sequence="5" value="WLGI"/>
+                <element label="Wellington Cargo" sequence="6" value="WLGC"/>
+            </choice>
+        </element>
+    </element>
+</database>

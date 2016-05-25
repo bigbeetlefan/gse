@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Request Details" section_id="ebcb8596db2f1200b5257e7dbf9619de" sys_domain="global" table="x_39910_gse_x_gse_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_airport</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>52c2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_detailed_location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>d2c2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>56c2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_equipment</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>d6c2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>5ac2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_assigned_supplier</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>dac2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_cost</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>5ec2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_due_date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>dec2dd1adb2f1200b5257e7dbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_accident</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>52c2dd1adb2f1200b5257e7dbf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>d2c2dd1adb2f1200b5257e7dbf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_gse_issue_details</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 19:08:10</sys_created_on>
+            <sys_id>56c2dd1adb2f1200b5257e7dbf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_39910_gse_x_gse_request" sys_domain="global" view="Default view">ebcb8596db2f1200b5257e7dbf9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 19:08:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Details</caption>
+            <header>false</header>
+            <name>x_39910_gse_x_gse_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-24 18:37:40</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebcb8596db2f1200b5257e7dbf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GSE" source="x_39910_gse">83bc72c6db6b1200b5257e7dbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GSE">83bc72c6db6b1200b5257e7dbf961907</sys_scope>
+            <sys_update_name>sys_ui_section_ebcb8596db2f1200b5257e7dbf9619de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,156 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="request_state" table="x_39910_gse_x_gse_request" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="x_gse_airport" table="x_39910_gse_x_gse_request" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Request</label>
+            <label>Auckland International</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:15:01</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e4c8f412db2f1200b5257e7dbf9619eb</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>bfcb8596db2f1200b5257e7dbf9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>1</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>AKLI</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Working in progress</label>
+            <label>Auckland Domestic</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:15:45</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f9e87412db2f1200b5257e7dbf961907</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_id>37cb8596db2f1200b5257e7dbf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>AKLD</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Waiting on supplier</label>
+            <label>Auckland Cargo</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:17:04</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3f093812db2f1200b5257e7dbf9619db</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>3bcb8596db2f1200b5257e7dbf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>3</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>AKLC</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Waiting on approval</label>
+            <label>Christchurch International</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:17:43</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0f59b012db2f1200b5257e7dbf9619e8</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>3fcb8596db2f1200b5257e7dbf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>4</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>CHCI</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Work Completed</label>
+            <label>Christchurch Cargo</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:18:07</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>64893412db2f1200b5257e7dbf9619b2</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>33cb8596db2f1200b5257e7dbf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>5</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>CHCC</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cancelled</label>
+            <label>Wellington International</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:18:38</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6a99fcdedbeb1200b5257e7dbf9619fb</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>37cb8596db2f1200b5257e7dbf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>6</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>WLGI</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Wellington Cargo</label>
             <language>en</language>
             <name>x_39910_gse_x_gse_request</name>
             <sequence>6</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:19:03</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bdb9fcdedbeb1200b5257e7dbf9619fc</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>3bcb8596db2f1200b5257e7dbf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 18:37:40</sys_updated_on>
-            <value>10</value>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
+            <value>WLGC</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>request_state</element>
+            <element>x_gse_airport</element>
             <name>x_39910_gse_x_gse_request</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-05-24 17:15:01</sys_created_on>
+            <sys_created_on>2016-05-24 18:37:41</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>b8e87412db2f1200b5257e7dbf961906</sys_id>
-            <sys_mod_count>23</sys_mod_count>
-            <sys_name>request_state</sys_name>
+            <sys_id>73cb8596db2f1200b5257e7dbf9619e6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_gse_airport</sys_name>
             <sys_package display_value="GSE" source="x_39910_gse">83bc72c6db6b1200b5257e7dbf961907</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="GSE">83bc72c6db6b1200b5257e7dbf961907</sys_scope>
-            <sys_update_name>sys_choice_x_39910_gse_x_gse_request_request_state</sys_update_name>
+            <sys_update_name>sys_choice_x_39910_gse_x_gse_request_x_gse_airport</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-05-24 17:19:17</sys_updated_on>
+            <sys_updated_on>2016-05-24 18:37:41</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

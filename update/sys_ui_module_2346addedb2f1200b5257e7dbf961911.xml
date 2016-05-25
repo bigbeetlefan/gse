@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="GSE App">15cd3ac6db6b1200b5257e7dbf9619df</application>
+        <filter/>
+        <name>Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_39910_gse_task_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-24 20:33:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2346addedb2f1200b5257e7dbf961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tasks</sys_name>
+        <sys_package display_value="GSE" source="x_39910_gse">83bc72c6db6b1200b5257e7dbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GSE">83bc72c6db6b1200b5257e7dbf961907</sys_scope>
+        <sys_update_name>sys_ui_module_2346addedb2f1200b5257e7dbf961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-24 20:33:26</sys_updated_on>
+        <table>x_39910_gse_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
